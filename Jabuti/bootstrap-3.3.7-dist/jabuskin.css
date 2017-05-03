@@ -1,0 +1,21 @@
+.inicio-menulogo{
+	position: relative;
+}
+.inicio-menulogo img{
+	height: 150px;
+	width: 400px;
+}
+body{
+	width: 400px;
+	margin: 0 auto;
+}
+.menu {
+	position: absolute;
+	top: 0;
+	left: 375px; 
+}
+.MyStory{
+	padding: 5px;
+	top: 0px;
+	text-align: center;	
+}
