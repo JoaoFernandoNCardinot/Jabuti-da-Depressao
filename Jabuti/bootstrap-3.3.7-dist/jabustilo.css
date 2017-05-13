@@ -1,7 +1,17 @@
-.menu{
-	opacity: 0.7;
+body{
+	background-color: #000;
+}
+.inicio{
+	border: 1px solid #FFF;
 }
 .MyStory{
-	background-color:#FFDEAD;
 	color: #FFF;
+}
+.MyStory img{
+	opacity: 0.6;
+	filter: blur(2px);
+}
+.menu-pontos{
+	background-color: #000;
+    border: 0px solid #000;
 }
