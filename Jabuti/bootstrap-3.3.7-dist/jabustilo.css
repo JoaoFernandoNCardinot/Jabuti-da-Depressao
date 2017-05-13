@@ -3,6 +3,7 @@ body{
 }
 .inicio{
 	border: 1px solid #FFF;
+	border-radius: 15px;
 }
 .MyStory{
 	color: #FFF;
@@ -13,5 +14,5 @@ body{
 }
 .menu-pontos{
 	background-color: #000;
-    border: 0px solid #000;
+    	border: hidden;
 }
