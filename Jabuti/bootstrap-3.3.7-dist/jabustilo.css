@@ -1,9 +1,9 @@
 body{
 	background-color: #000;
 }
-.inicio{
-	border: 1px solid #FFF;
-	border-radius: 15px;
+.site{
+	border: 2px solid #FFF;
+	border-style: outset;
 }
 .MyStory{
 	color: #FFF;
@@ -14,5 +14,11 @@ body{
 }
 .menu-pontos{
 	background-color: #000;
-    	border: hidden;
+    border: hidden;
+}
+.carousel-legenda{
+	color: #FFF
+}
+.carousel-img{
+	opacity: 0.7;
 }
