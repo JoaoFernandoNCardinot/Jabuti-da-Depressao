@@ -1,6 +1,9 @@
 body{
 	background-color: #000;
 }
+.MyStory-son h1{
+	font-family: 'Mogra', cursive;
+}
 .site{
 	border: 2px solid #FFF;
 	border-style: outset;
@@ -17,7 +20,8 @@ body{
     border: hidden;
 }
 .carousel-legenda{
-	color: #FFF
+	color: #FFF;
+	font-family: 'Mogra', cursive;
 }
 .carousel-img{
 	opacity: 0.7;
