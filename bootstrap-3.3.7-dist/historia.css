@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+body{
+	width: 400px;
+	margin: 0 auto;
+	background-color: #000;
+	font-family: 'Lobster', cursive;
+	font-size: 1.4em;
+	height: 100%;
+}
+header{
+	border-bottom: solid 3px #000;
+	border-bottom-style: groove;
+}
+main h3{
+	text-align: center;
+}
+p: first-letter{
+	font-size: xx-large;
+}
+.parte1{
+	text-align: justify;
+	color:rgba(230, 126, 34,1.0); 
+	position: relative;
+	width: 400px;
+	height: 236px;
+}
+.parte1 p{
+	width: 350px;
+	margin: 0 auto;
+^}
+
+.background{
+	background-repeat: no-repeat;
+	background: url('http://www.achetudoeregiao.com.br/arvores/Arvores.gif/floresta1.jpg');
+	filter: brightness(60%);
+	position: absolute;
+	display: block;
+	width: 400px;
+	height: 236px;
+}
+
+.parte2{
+	text-align: justify;
+	width: 400px;
+}
+.parte2 p{
+	width: 350px;
+	margin: 0 auto;
+^}
+
+#menu{
+	display: none;
+	border-radius: 5px;
+	right: 180px;
+	position: relative;
+}
+.background2{
+	background-repeat: no-repeat;
+	background-image: url(http://1.bp.blogspot.com/-LQ9tOxLzFOY/UBRiIHwgTlI/AAAAAAAAAPY/uGYXpdCp8wU/s1600/nuclear_explosion_by_typhon39-d30o54l.png);
+	filter: brightness(60%);
+	position: absolute;
+	display: block;
+	width: 400px;
+	height: 236px;
+	background-size: 100%;
+}
+.background2 img{
+	width: 100%;
+	height: 100%;
+}
+
+.content{
+	position: absolute;
+	width: 400px;
+	justify-content: center;
+}
+.menu-pontos img{
+	background-color: #000;
+    border: hidden;
+}
+.menu-pontos{
+	background-color: #000;
+    border: hidden;
+    padding:0;
+    margin: 0;
+}
+
+footer{
+	text-align: center;
+}
+footer img{
+	top: 100%;
+	width: 10%;
+	margin: 20px 10px 10px;
+}
+footer hr{
+	border-color: #696969;
+}

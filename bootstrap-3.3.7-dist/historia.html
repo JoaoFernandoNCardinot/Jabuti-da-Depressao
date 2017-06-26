@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Minha História</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="./css/bootstrap.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Mogra" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="historia.css">
+		<link rel="stylesheet" href="jabuskin.css"/>
+		<script type="text/javascript">
+			function mostrar(id){
+				document.getElementById(id).style.display='block';
+			}
+			 function retirar(id){
+			document.getElementById(id).style.display='none';		 
+		 }
+		</script>
+	</head>
+	<body>
+		<header>
+				<nav class="inicio-menulogo">
+						<img src="./img/logocompleto.PNG" alt="jabu"/>
+					<div class="menu">
+						<div class="dropdown">
+							<button id="dLabel" class="menu-pontos" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onClick="mostrar('menu')" >
+							  <img src="./img/menu.PNG"/>
+							</button>
+							<ul class="dropdown-menu" aria-labelledby="dLabel" id="menu">
+								<li class="teste"><a href="#">Minha história</a></li>
+								<li class="teste"><a href="#">Como cuidar de mim</a></li>
+								<li class="teste"><a href="#">Frase do dia</a></li>
+								<li class="teste"><a href="#">Meus parentes</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</header>
+		<main>
+			<div class="parte1">
+				<div class="background"></div>
+				<div class="content">
+						<h3>O começo</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In congue eu libero sit amet varius. Proin gravida ex et ante pulvinar, et dictum elit fermentum. Phasellus lacinia eros in tempus mollis. Etiam ac tortor efficitur, condimentum leo vitae, vehicula lacus. Donec commodo non leo eget scelerisque. Nullam egestas tortor at quam ultricies, eget laoreet arcu varius. In eu mauris fermentum tortor cursus commodo non sit amet eros. Suspendisse magna leo, maximus et neque quis, interdum pretium diam. Maecenas sit amet erat eu mi feugiat euismod. Morbi posuere risus gravida lacus lacinia blandit.</p>
+				</div>		
+			</div>
+			<div class="parte2">
+				<div class="background2"></div>
+				<div class="content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In congue eu libero sit amet varius. Proin gravida ex et ante pulvinar, et dictum elit fermentum. Phasellus lacinia eros in tempus mollis. Etiam ac tortor efficitur, condimentum leo vitae, vehicula lacus. Donec commodo non leo eget scelerisque. Nullam egestas tortor at quam ultricies, eget laoreet arcu varius. In eu mauris fermentum tortor cursus commodo non sit amet eros. Suspendisse magna leo, maximus et neque quis, interdum pretium diam. Maecenas sit amet erat eu mi feugiat euismod. Morbi posuere risus gravida lacus lacinia blandit.</p>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
