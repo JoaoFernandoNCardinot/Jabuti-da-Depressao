@@ -124,8 +124,3 @@ footer img{
 footer hr{
 	border-color: #696969;
 }
-@media(min-width: 600px;){
-	*{
-		box-sizing: border-box;
-	}
-}

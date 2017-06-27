@@ -5,13 +5,13 @@
 	display: none;
 }
 .tudo{
-	width: inherit;
-	margin: 0 auto;
+	width: 100%;
 	background-color: #000;
 }
 
 .site{
-	padding: inherit;
+	margin: 0 auto;
+	padding: 0;
 }
 
 header{
@@ -119,6 +119,7 @@ header{
 	padding: 0px;
 	text-align: center;
 	position: relative;
+	vertical-align: center;
 	color: #FFF;
 }
 .Howstarts img{
@@ -143,10 +144,4 @@ header{
 
 footer hr{
 	border-color: #696969;
-}
-
-@media(max-width: 500px;){
-	*{
-		box-sizing: border-box;
-	}
 }
