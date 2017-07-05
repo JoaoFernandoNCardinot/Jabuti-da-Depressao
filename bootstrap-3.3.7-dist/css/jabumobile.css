@@ -53,8 +53,9 @@ header{
 	width: 50%;
 }
 .MyStory {
+	opacity: 0.7;
 	background: url(./img/jabulindo.JPEG) no-repeat;
-	background-size: 100vw 100vw;
+	background
 	padding: 0px;
 	text-align: center;
 }
@@ -64,8 +65,8 @@ header{
 }
 .MyStory img{
 	top: 0;
-	width: 100vw;
-	height: 100vw;
+	width: inherit;
+	height: 280px;
 }
 .carousel-div{
 	position: relative;
@@ -73,10 +74,12 @@ header{
 	margin: 0px;
 }
 .carousel-legenda{
-	left: 35vw;
-	top: 16vw;
+	left: 33%;
+	top: 30%;
+
 	position: absolute;
 	text-align: center;
+
 	text-shadow: #000 1px 1px 2px;
 }
 footer{
@@ -88,11 +91,10 @@ footer img{
 }
 
 header{
-	border-bottom: 3px #000;
+	border-bottom: solid 3px #000;
 	border-bottom-style: groove;
 }
 .MyStory-son h1{
-	margin-top: 0;
 	font-family: 'Mogra', cursive;
 }
 .MyStory{
@@ -121,21 +123,18 @@ header{
 	vertical-align: center;
 	color: #FFF;
 	background: url(https://cdn.pixabay.com/photo/2016/02/18/15/36/tortoise-1207373_960_720.jpg) no-repeat;
-	background-size: 100vw 100vw;
-
 }
 .Howstarts img{
 	display: none;
 }
 
 .Howstarts-son{
-	display: block;
+	opacity: 1.0px;
 	padding: 5vw;
 	text-shadow: #000 1px 1px 2px;
 }
 
 .Howstarts-son h1{
-	margin-top: 0;
 	font-family: 'Mogra', cursive;
 }
 
